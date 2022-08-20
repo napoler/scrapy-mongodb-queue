@@ -8,7 +8,7 @@ LONG_DESC = open(os.path.join(os.path.dirname(__file__), 'README.md')).read()
 
 setup(
     name='scrapy-mongodb-queue',
-    version='0.1.0',
+    version='1.6.0.1',
     description='MongoDB-based components for Scrapy',
     long_description=LONG_DESC,
     author='Lhassan Baazzi',
@@ -16,5 +16,5 @@ setup(
     url='https://github.com/jbinfo/scrapy-mongodb',
     packages=['scrapy_mongodb_queue'],
     license='MIT',
-    install_requires=['Scrapy==0.24.6', 'pymongo>=3.0']
+    install_requires=['Scrapy==1.6.0', 'pymongo==3.10.1']
 )
